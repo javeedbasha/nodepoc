@@ -21,6 +21,7 @@ app.use(function(req, res, next) {
     next(err);
 });
 
+//listening in 8080
 app.listen(port, function(){
     console.log("Running my app on port " + port);
 });
